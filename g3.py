@@ -3,17 +3,17 @@ import pgzrun
 HEIGHT = 500
 WIDTH = 500
 
-sun = Actor('sun1', pos=(200,200))
-poke = Actor('pika', topleft=(0, 0)) 
+alienb = Actor('character_0002', pos=(200,200))
+alieng = Actor('character_0000',topleft=(50,50))
 
 def draw():
     screen.fill('white')
-    sun.draw()
-    poke.draw()
+    alienb.draw()
+    alieng.draw()
 
 def update():
-    sun.y += 1
-    if sun.y > HEIGHT:
-        sun.y = 0
+    alienb.y += 1
+    if alienb.y > HEIGHT:
+        alienb.y = 0
 
 pgzrun.go()
