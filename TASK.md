@@ -7,3 +7,13 @@
 - WAF to remove all duplicates from a two list and then return a single list of unique values
 
 - WAF to take dictionary and then sort that dictionary
+
+# 10 SEP 22
+
+- count all the words in the file
+
+- count the occurance of different conjuntions in the file
+
+- count all the lines in the file
+
+- display the top 100 words that occur in the file
