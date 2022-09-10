@@ -1,0 +1,4 @@
+mobile->motorola
+price->20000
+expiry->2023
+features->kuch khas nhi
