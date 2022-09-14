@@ -1,5 +1,6 @@
 import pgzrun
 
+
 WIDTH = 600
 HEIGHT = 500
 
@@ -42,6 +43,6 @@ def draw():
 def update():
     p.move()
     p.boundary_check()
-    p.animate()
+
 
 pgzrun.go()
